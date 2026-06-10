@@ -2,8 +2,7 @@
 # Preliminary Measurements to Guide the Development of a Standing CT
 ### Code files
 
-The tracking pipeline and geometric evaluations are implemented across three Jupyter Notebook files:
-* `Study1.ipynb`: Handles the data processing pipeline, infrared marker segmentation, and trajectory calibration.
+The tracking pipeline and geometric evaluations are implemented across two Jupyter Notebook files:
 * `Study2.1.ipynb`: Analyzes the camera tracking error and spatial distortions using the first (ceiling-mounted) configuration.
 * `Study2.2.ipynb`: Analyzes the tracking error using the second (platform-mounted) configuration and plots participant kinematic results.
 
@@ -11,7 +10,6 @@ Additionally, the repository includes three core Python utility scripts used for
 * `recorder_roob 1.py`: Manages the data logging and multi-channel recording process from the infrared depth camera.
 * `playback_fast.py`: Provides high-speed playback and rapid visualization of the recorded depth and spatial data streams.
 * `groundtruth.py`: Establishes and processes the baseline reference data to evaluate the spatial accuracy of the camera system.
-
 
 ### Data Access
 
